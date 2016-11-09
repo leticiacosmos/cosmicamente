@@ -1,0 +1,43 @@
+body {
+    background-color: #f1efe0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .0);
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.navbar.scrollado {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .1);
+    height: 60px;
+}
+
+.menuletter {
+    border-bottom: 2px solid #00676c;
+}
+
+.logomini {
+    height: 40px;
+    margin-top: -10px;
+}
+
+.bgi {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+main {
+    margin-top: 150px;
+}
+
+small {
+    padding-left: 160px;
+    margin-top: -50px;
+    padding-top:0px; 
+}
